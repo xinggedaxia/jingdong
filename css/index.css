@@ -1,0 +1,189 @@
+@charset "utf-8";
+.banner604{
+    position: relative;
+}
+.banner604 a{
+    position: absolute;
+    height: 604px;
+    width: 100%;
+    background: url("../images/banner.jpg") no-repeat center;
+}
+.main{
+    position: relative;
+}
+.slider{
+    position: relative;
+    width: 730px;
+    height: 454px;
+    margin:12px 0 0 220px;
+    float: left;
+    background-color: pink;
+}
+.circle{
+    position:absolute;
+    bottom:8px;
+    left:50%;
+    margin-left:-66px;
+}
+.circle li{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #3E3E3E;
+    float: left;
+    cursor: pointer;
+    margin:0 2px;
+    text-align: center;
+    line-height: 18px;
+    color:white;
+}
+.circle li.current{
+    background-color: #B61B1F;
+}
+.slider .arrowl,
+.slider .arrowr{
+    position: absolute;
+    height: 62px;
+    width: 28px;
+    top:50%;
+    margin-top:-31px;
+    background:rgba(0,0,0,0.2);
+    text-align: center;
+    color:white;
+    font:400 16px/62px "SimSun";
+
+}
+.slider .arrowl{
+    left:0;
+}
+.slider .arrowr{
+    right:0;
+}
+.news{
+    float: right;
+    height: 454px;
+    width: 248px;
+    border:1px solid #E4E4E4;
+    margin-top:12px;
+}
+.jdkb{
+    height: 200px;
+    border-bottom:1px dashed #E4E4E4;
+
+}
+.jdkb .dt,
+.lifeservi .dt{
+    padding:0 15px;
+    height: 43px;
+    border-bottom:1px dotted #E4E4E4;
+}
+.lifeservi .dd{
+    overflow: hidden;
+}
+.jdkb h3,
+.lifeservi h3{
+    font:15px/43px "Microsoft Yahei";
+    float: left;
+}
+.jdkb .dt a{
+    line-height: 43px;
+    float: right;
+    font-family:"宋体";
+}
+.jdkb ul{
+    padding:8px 0 0 15px;
+}
+.jdkb li{
+    line-height: 28px;
+}
+.jdkb li span{
+    font-weight:700;
+}
+.lifeservi ul{
+    width: 252px;
+}
+.lifeservi li{
+    float: left;
+    width: 62px;
+    height: 70px;
+    border:1px solid #E4E4E4;
+    border-top:0;
+    margin-left:-1px;
+    background:url("../images/song.png")no-repeat right top;
+
+}
+.lifeservi li a{
+    position: relative;
+    display: block;
+    height: 70px;
+    padding-top:44px;
+    text-align: center;
+}
+.lifeservi li i{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top:12px;
+    left:18px;
+    background: url("../images/icon_lifeserv.png") no-repeat ;
+}
+
+/*双11开始*/
+.double11{
+    position: relative;
+    z-index: 1;
+
+}
+.night{
+    margin:10px 0 10px 0;
+    overflow: hidden;
+}
+.night-r{
+    width: 1000px;
+    height: 160px;
+}
+.night-r ul{
+    width:500%;
+}
+.night-r li{
+    float: left;
+    margin-right:1px;
+}
+/*双11结束*/
+#mask{
+    width: 100%;
+    height:100%;
+    background: rgba(0, 0, 0 ,.5);
+    position: fixed;
+    left: 0;
+    top:0;
+    z-index: 999;
+    display: none;
+}
+#logbox{
+    width: 600px;
+    height: 400px;
+    position: fixed;
+    left:50%;
+    top:50%;
+    margin:-200px 0 0 -300px;
+    background-color: #fff;
+    z-index: 1000;
+    display: none;
+}
+.inform{
+    margin: 100px;
+}
+.inform input{
+    border: 1px solid gray;
+    width: 100px;
+    line-height: 20px;
+}
+#closeLg{
+    width: 5px;
+    height:5px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
